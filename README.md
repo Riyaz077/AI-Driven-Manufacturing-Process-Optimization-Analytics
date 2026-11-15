@@ -1,4 +1,6 @@
-# Toyota Manufacturing Process Improvement Using Lean Six Sigma and Machine Learning
+# Smart-Manufacturing-Analytics
+
+## Toyota Manufacturing Process Improvement Using Lean Six Sigma and Machine Learning
 
 An educational manufacturing-quality analytics project combining DMAIC, statistical process analysis, and machine learning to explore process variation and defect risk.
 
