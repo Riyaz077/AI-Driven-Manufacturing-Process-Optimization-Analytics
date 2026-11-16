@@ -21,7 +21,7 @@ An educational manufacturing-quality analytics project combining DMAIC, statisti
 - Streamlit dashboard and CSV outputs
 - Notebook, report, methodology, architecture and presentation
 
-### **Quick Start**
+## **Quick Start**
 
 - Install the required project dependencies using `requirements.txt`.
 - Generate the demonstration dataset and execute the preprocessing pipeline.
@@ -29,7 +29,7 @@ An educational manufacturing-quality analytics project combining DMAIC, statisti
 - Launch the interactive Streamlit dashboard.
 - Explore the generated results, model outputs, and analytical insights.
 
-### **Repository Structure**
+## **Repository Structure**
 
 The repository is organized into dedicated directories for configuration, datasets, documentation, trained models, notebooks, presentations, results, screenshots, source code, and automated tests.
 
