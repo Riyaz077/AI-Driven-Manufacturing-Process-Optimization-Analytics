@@ -21,18 +21,25 @@ An educational manufacturing-quality analytics project combining DMAIC, statisti
 - Streamlit dashboard and CSV outputs
 - Notebook, report, methodology, architecture and presentation
 
-## Quick start
-```bash
-pip install -r requirements.txt
-python -m src.pipeline --generate-demo
-streamlit run app.py
-```
+### **Quick Start**
 
-## Repository layout
-```text
-config/ data/ docs/ models/ notebooks/ presentation/ results/ screenshots/ src/ tests/
-app.py  README.md  requirements.txt  LICENSE  .gitignore
-```
+- Install the required project dependencies using `requirements.txt`.
+- Generate the demonstration dataset and execute the preprocessing pipeline.
+- Initialize the project pipeline using the demo generation option.
+- Launch the interactive Streamlit dashboard.
+- Explore the generated results, model outputs, and analytical insights.
+
+### **Repository Structure**
+
+The repository is organized into dedicated directories for configuration, datasets, documentation, trained models, notebooks, presentations, results, screenshots, source code, and automated tests.
+
+Core project files include:
+
+- `app.py` – Streamlit application.
+- `README.md` – Project documentation.
+- `requirements.txt` – Python dependencies.
+- `LICENSE` – Project licensing information.
+- `.gitignore` – Git tracking exclusions.
 
 ## Demo data fields
 date, shift, line, machine_id, operator_experience_months, temperature_c, pressure_bar, cycle_time_sec, vibration_mm_s, tool_wear_hours, material_batch, defect.
@@ -45,4 +52,8 @@ Classification: precision, recall, F1, ROC-AUC and confusion matrix. Statistical
 ## Responsible interpretation
 Prediction and feature importance do not prove causation. Validate root causes with manufacturing engineers and quality specialists. Do not change safety-critical process settings based solely on model output.
 
-Author: Mohamed Riyaz S. | VIT Chennai
+## Author
+
+**Mohamed Riyaz S.**  
+Integrated M.Tech, Computer Science and Engineering (Business Analytics)  
+VIT Chennai
