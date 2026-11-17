@@ -31,22 +31,75 @@ An AI-driven manufacturing quality analytics project that integrates **Lean Six 
 
 ## System Architecture
 
+The proposed architecture integrates manufacturing data processing, statistical quality analysis, machine learning, and Lean Six Sigma methodology into a unified manufacturing intelligence workflow.
+
+### Architecture Diagram
+
 ```mermaid
 flowchart TD
-    A["Synthetic Manufacturing Dataset"] --> B["Data Validation & Preprocessing"]
-    B --> C["Manufacturing Quality Analytics"]
-    C --> D["Baseline KPIs & Defect Analysis"]
-    C --> E["Pareto & Statistical Analysis"]
-    C --> F["Feature Engineering"]
-    F --> G["Random Forest Defect Classifier"]
-    G --> H["Model Evaluation"]
-    D --> I["Lean Six Sigma DMAIC Framework"]
-    E --> I
-    H --> I
-    I --> J["Statistical Process Monitoring"]
-    J --> K["Manufacturing Intelligence Dashboard"]
-    K --> L["Quality Insights & Analytical Reports"]
+    A["Synthetic Manufacturing Dataset"] --> B["Data Ingestion & Validation"]
+
+    B --> C["Data Preprocessing"]
+    C --> D["Feature Engineering"]
+
+    D --> E["Manufacturing Quality Analytics"]
+    D --> F["Statistical Analysis"]
+    D --> G["Machine Learning Pipeline"]
+
+    E --> H["Baseline KPIs & Defect Rate"]
+    E --> I["Pareto Analysis"]
+
+    F --> J["Correlation & Process Variation"]
+    F --> K["Statistical Hypothesis Testing"]
+
+    G --> L["Random Forest Classifier"]
+    L --> M["Defect Risk Prediction"]
+    M --> N["Model Evaluation"]
+
+    H --> O["Lean Six Sigma DMAIC Framework"]
+    I --> O
+    J --> O
+    K --> O
+    N --> O
+
+    O --> P["Define - Measure - Analyze"]
+    P --> Q["Improve - Control"]
+
+    Q --> R["Statistical Process Monitoring"]
+    R --> S["Interactive Streamlit Dashboard"]
+
+    S --> T["Manufacturing KPIs"]
+    S --> U["Predictive Insights"]
+    S --> V["Quality Reports & Visualisations"]
+
+    T --> W["Data-Driven Quality Improvement"]
+    U --> W
+    V --> W
 ```
+
+### Architecture Components
+
+| Component | Function |
+|---|---|
+| Data Ingestion | Loads synthetic manufacturing production records. |
+| Data Preprocessing | Validates, cleans, and prepares manufacturing data. |
+| Feature Engineering | Extracts relevant operational and production features. |
+| Quality Analytics | Calculates defect rates, production KPIs, and Pareto analysis. |
+| Statistical Analysis | Examines correlations, process variation, and statistical patterns. |
+| Machine Learning | Uses Random Forest for experimental defect-risk classification. |
+| Model Evaluation | Measures predictive performance using classification metrics. |
+| DMAIC Framework | Organises the quality improvement process into five stages. |
+| Process Monitoring | Applies illustrative p-chart calculations to monitor defect proportions. |
+| Streamlit Dashboard | Presents manufacturing insights, predictions, and quality visualisations. |
+
+### Overall Workflow
+
+1. **Data Collection and Generation:** Generate synthetic manufacturing production records.
+2. **Data Preparation:** Perform data validation, preprocessing, and feature engineering.
+3. **Quality and Statistical Analysis:** Calculate quality KPIs, perform Pareto analysis, and examine process variation.
+4. **Predictive Modelling:** Train and evaluate the Random Forest defect classification model.
+5. **DMAIC-Based Improvement:** Organise analytical findings through Define, Measure, Analyze, Improve, and Control.
+6. **Monitoring and Visualisation:** Present process monitoring results, predictive insights, and quality reports through the Streamlit dashboard.
 
 ## Lean Six Sigma DMAIC Methodology
 
